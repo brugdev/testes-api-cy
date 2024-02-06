@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Subir servidor') {
             steps {
-                bat 'npm start'
+                bat 'npm run cy:run-ci'
                 
             }
         }          
