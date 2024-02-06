@@ -8,11 +8,7 @@ pipeline {
                 
             }
         }
-        stage('Serverest (Tentativa)') {
-            steps {
-                bat 'npm i start-server-and-test'
-                
-            }
+
         stage('Instalar dependenia') {
             steps {
                 bat 'npm install'
@@ -34,4 +30,4 @@ pipeline {
 
     }
 }
-}
+
