@@ -6,7 +6,7 @@ import { faker } from '@faker-js/faker';
 describe('Testes da Funcionalidade Usuários', () => {
      let token
      before(() => {//antes de eexecutar o teste faca isso
-          cy.token('brunoteste2@gmail.com', 'teste').then(tkn => { token = tkn })//chamada do comando personalizado que criei e coloquei em commands com os parametros
+          cy.token('fulano@qa.com', 'teste').then(tkn => { token = tkn })//chamada do comando personalizado que criei e coloquei em commands com os parametros
      });
 
      it('Deve validar contrato de usuários', () => {//*******************************ok

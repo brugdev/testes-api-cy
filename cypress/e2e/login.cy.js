@@ -7,7 +7,7 @@ describe('Login', () => {
             method: 'POST',
             url: 'login',
             body: {
-                "email": "brunoteste2@gmail.com",
+                "email": "fulano@qa.com",
                 "password": "teste" 
             }
         }).then((response) => {
